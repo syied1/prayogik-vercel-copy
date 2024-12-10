@@ -113,13 +113,13 @@ export default function SingleCourse({ course }) {
         session?.user?.id &&
         progress !== null ? (
           <>
-            <div className="mb-4">
+            {/* <div className="mb-4">
               <CourseProgress
                 variant={progress === 100 ? "success" : "default"}
                 size="sm"
                 value={progress}
               />
-            </div>
+            </div> */}
             <Link
               href={`/courses/${slug}/${lessons[0]?.slug}`}
               className="mt-4"
