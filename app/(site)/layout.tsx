@@ -15,9 +15,9 @@ export default function SiteLayout({
 }) {
   return (
     <div>
-      {/* <Header /> */}
+      <Header />
       <div className="bg-gray-50">{children}</div>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
