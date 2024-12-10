@@ -58,3 +58,6 @@ const CourseInclusions = () => {
 };
 
 export default CourseInclusions;
+
+// console.log('output');
+
