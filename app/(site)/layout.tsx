@@ -1,8 +1,5 @@
 import type { Metadata } from "next";
-import React, { Suspense } from "react"; // Import Suspense
-
 import "../globals.css";
-
 import Footer from "./_components/Footer";
 import Header from "./_components/Header";
 
@@ -18,13 +15,9 @@ export default function SiteLayout({
 }) {
   return (
     <div>
-      <Header />
-      <Suspense fallback={<div>Loading...</div>}>
-        {" "}
-        {/* Add Suspense here */}
-        <div className="bg-gray-50">{children}</div>
-      </Suspense>
-      <Footer />
+      {/* <Header /> */}
+      <div className="bg-gray-50">{children}</div>
+      {/* <Footer /> */}
     </div>
   );
 }
